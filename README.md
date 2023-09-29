@@ -79,7 +79,6 @@ Even if we upload in 4K resolution not everyone can watch in that resolution. It
 For this we will be using an AIML service from amazon called amazon recognition. It gets the video analyses every frame against a presorted database and detects the adult content.
 
 5.	Content Delivery Network:
-
 Content Delivery Network(CDN) refers to a geographically distributed group of servers located at different places which work together to provide fast delivery of content. This is not only scalable but provides a very low latency to the end user.
 
 
