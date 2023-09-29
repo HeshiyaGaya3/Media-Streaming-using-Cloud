@@ -44,18 +44,14 @@ Being responsive to user feedback and provide excellent customer support. Addres
 
 SYSTEM DESIGN:
 1.	Video ingestion:
-
 As the first step let’s consider uploading data to the platform by creators. Let’s say they upload a video at 4K resolution and .mp4 format to some storage along with title, description, and tag. The storage should be secure, resilient, scalable, and cost effective. For this an ideal storage cloud service is Amazon s3 service. 
 
 2.	Database:
-
 We need a database to store all tags, descriptions, and title which we’ll need it when we search for a particular video. Using relational database will be a problem as they are not horizontally scalable. So for that we’ll use a NOSQL database called ElasticSearch which is used for storing text fields and optimize search for that fields.
 
-
-
-
-
 SYSTEM ARCHITECTURE
+
+
 ![cad2](https://github.com/HeshiyaGaya3/Media-Streaming-using-Cloud/assets/114100105/14370f41-f3d6-4f31-8b15-83d27598707c)
 
                                
