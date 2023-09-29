@@ -11,34 +11,49 @@ Live streaming has become an integral part of the marketing strategy for many br
 5.	Reach: Live streaming has a huge user base and growing popularity, making it an effective way to reach thousands or more new customers with just a click of a button .
 
 Design Thinking:
+
 Select a Cloud Provider:
 To choose a cloud provider that offers media streaming capabilities. Popular choices include Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), or specialized media streaming providers like Vimeo, Brightcove, or IBM Watson Media. Consider factors like cost, geographic reach, and service offerings when making your selection.
+
 Content Preparation:
 To prepare media content by encoding and transcoding it into suitable formats and bitrates for adaptive streaming. Most cloud streaming providers offer encoding/transcoding services or integrations with third-party tools.
+
 Cloud Storage:
 By Uploading media content to the cloud storage provided by your chosen cloud provider. Ensure proper organization and access controls to manage your content effectively.
+
 Content Security:
 Implementing security measures to protect your media content. This may include content encryption, token-based access control, and DRM solutions to prevent unauthorized access and piracy.
+
 CDN Integration:
 To set up integration with a Content Delivery Network (CDN) to distribute your media content efficiently to end-users. Configure caching, edge server locations, and CDN settings for optimal performance and low latency.
+
 Player Integration:
 Embedding a media player into your web or mobile applications using the provided SDKs or APIs from your cloud streaming service. Customize the player to match your brand and user experience requirements.
+
 Scalability and Elasticity:
 To Configure auto-scaling rules to handle varying levels of traffic. Ensure that your cloud infrastructure can automatically scale up or down based on demand to maintain a smooth streaming experience during peak periods.
+
 Monitoring and Analytics:
 To implement monitoring and analytics tools to track the performance of your media streaming service. Monitor viewer statistics, user engagement, and error logs to identify and address issues promptly.
+
 Cost Management:
 To monitor and manage costs by setting up budget alerts and optimizing resource usage and ensure that we understand the pricing structure of your cloud provider to avoid unexpected expenses.
+
 Testing and Quality Assurance:
 To conduct thorough testing of our media streaming service before going live. Test on various devices and network conditions to ensure a consistent and high-quality user experience.
+
 Documentation and Training:
 To document our setup and configurations, including security policies and procedures. Provide training to our team members responsible for managing and maintaining the media streaming service.
+
 Launch and Monitor:
 To launch our media streaming service to the public or our intended audience. Continuously monitor its performance and user feedback to make improvements and adjustments as needed.
+
 Scaling and Optimization:
 As audience grows or requirements change, we have to be prepared to scale our cloud streaming infrastructure accordingly. Optimize our setup based on performance data and user behavior.
+
 Stay Informed:
 Keeping abreast of industry trends and updates in cloud streaming technology. Cloud services evolve rapidly, and staying informed can help you take advantage of new features and improvements.
+
 Customer Support and Feedback:
 Being responsive to user feedback and provide excellent customer support. Address issues promptly to maintain a positive user experience.
 
