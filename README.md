@@ -54,5 +54,20 @@ SYSTEM ARCHITECTURE
 
 ![cad2](https://github.com/HeshiyaGaya3/Media-Streaming-using-Cloud/assets/114100105/14370f41-f3d6-4f31-8b15-83d27598707c)
 
+
+3.	Video encoding:
+
+Even if we upload in 4K resolution not everyone can watch in that resolution. It depends on the specs of the device which they are using to view the content. So this 4K resolution needs to be converted into different forms to be consumed by different devices. For this we use AWS service called Element Media Convert.
+
+4.	Adult content detection:
+
+For this we will be using an AIML service from amazon called amazon recognition. It gets the video analyses every frame against a presorted database and detects the adult content.
+
+5.	Content Delivery Network:
+
+Content Delivery Network(CDN) refers to a geographically distributed group of servers located at different places which work together to provide fast delivery of content. This is not only scalable but provides a very low latency to the end user.
+
+
+
                                
 
