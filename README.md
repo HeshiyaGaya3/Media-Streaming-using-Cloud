@@ -56,6 +56,7 @@ We need a database to store all tags, descriptions, and title which we’ll need
 
 
 SYSTEM ARCHITECTURE
+![cad2](https://github.com/HeshiyaGaya3/Media-Streaming-using-Cloud/assets/114100105/14370f41-f3d6-4f31-8b15-83d27598707c)
 
                                
 
