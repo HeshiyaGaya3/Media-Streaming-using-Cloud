@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <section>
+
+        <div class="cont">
+            <div class="box">
+                <div>
+                    <img src="images/logo.png" alt="logo" />
+        </div>
+        <div>
+        
+        </div>
+        <div class="login">
+            <h3>Login To Continue</h3>
+            <div id="put">
+                <input type="email" placeholder="Enter your EmailId" id="mail"/>
+                <input type="password" placeholder="Password" id="pass" />
+                <button onclick="success()" id="butt">Login</button>
+                <div id="ckbox">
+                  <input id="check" type="checkbox">
+                  <h5>Remember my login</h5>
+                </div>
+                <a id="lg" href="#">Forget Password</a>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+    
+    <script>
+
+  function success(){
+
+    let email = document.getElementById("mail").value;
+    let pass = document.getElementById("pass").value;
+    
+    if(email === "" && pass === ""){
+      alert("kindly fill the required details to login")
+    }
+    else if(email === "" || pass === ""){
+      alert("kindly fill the required details to login")
+    }
+    
+    else{
+     /* let anchor = document.createElement('a');
+      let textNode = document.createTextNode("Login");
+      anchor.appendChild(textNode);
+      anchor.href = "index.html";
+      document.getElementById("butt").appendChild(anchor);*/
+      location.href = "index.html"
+    }
+    
+  }
+
+</script>
+    
+  </body>
+</html>
